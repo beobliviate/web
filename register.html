@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="image/icons8-geschlechtsneutraler-benutzer-32.png" type="image/x-icon">
+</head>
+<body>
+  <h1>Registration Form</h1>
+  <form action="success.html" method="GET">
+    <label>Full Name: <input type="text" name="name" required></label><br>
+    <label>Email: <input type="email" name="email" required></label><br>
+    <label>Participant Type:
+      <select name="type">
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+        <option value="public">Public</option>
+      </select>
+    </label><br>
+    <p>Meal Preference:</p>
+    <label><input type="radio" name="meal" value="vegetarian"> Vegetarian</label>
+    <label><input type="radio" name="meal" value="regular"> Regular</label><br>
+    <input type="submit" value="Register">
+  </form>
+</body>
+</html>
